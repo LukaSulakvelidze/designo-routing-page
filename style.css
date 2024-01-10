@@ -15,7 +15,7 @@ section {
   width: 100%;
   gap: 80px;
   padding-top: 80px;
-  background: url(./Mobile_Images/BackGround_Path/First_Cont.png) no-repeat #E7816B;
+  background: url(./Home_Page/Mobile_Images/BackGround_Path/First_Cont.png) no-repeat #E7816B;
   background-size: cover;
 }
 
@@ -122,17 +122,17 @@ button:hover {
 }
 
 .web {
-  background: url(./Mobile_Images/Assets/Web_Deisgn.jpg) no-repeat;
+  background: url(./Home_Page/Mobile_Images/Assets/Web_Deisgn.jpg) no-repeat;
   background-size: cover;
 }
 
 .app {
-  background: url(./Mobile_Images/Assets/App_Design.png) no-repeat;
+  background: url(./Home_Page/Mobile_Images/Assets/App_Design.png) no-repeat;
   background-size: cover;
 }
 
 .graphic {
-  background: url(./Mobile_Images/Assets/Graphic_Design.jpg) no-repeat;
+  background: url(./Home_Page/Mobile_Images/Assets/Graphic_Design.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -220,17 +220,17 @@ button:hover {
   }
 
   .web {
-    background: url(./Tablet_Images/Assets/Web_Design.jpg) no-repeat;
+    background: url(./Home_Page/Tablet_Images/Assets/Web_Design.jpg) no-repeat;
     background-size: cover;
   }
   
   .app {
-    background: url(./Tablet_Images/Assets/App_Design.jpg) no-repeat;
+    background: url(./Home_Page/Tablet_Images/Assets/App_Design.jpg) no-repeat;
     background-size: cover;
   }
   
   .graphic {
-    background: url(./Tablet_Images/Assets/Graphic_Design.jpg) no-repeat;
+    background: url(./Home_Page/Tablet_Images/Assets/Graphic_Design.jpg) no-repeat;
     background-size: cover;
   }
 
@@ -262,7 +262,7 @@ button:hover {
     align-items: unset;
     gap: 98px;
     padding: 145px 8.6% 0;
-    background: url(./Desktop_Images/Background_Path/First_cont.png) no-repeat right 0 #E7816B;
+    background: url(./Home_Page/Desktop_Images/Background_Path/First_cont.png) no-repeat right 0 #E7816B;
   }
 
   .section1>.main_text_cont {
@@ -302,21 +302,21 @@ button:hover {
   .web {
     grid-row: 1 / 3; 
     height: 640px;
-    background: url(./Desktop_Images/Assets/Web_Design.png) no-repeat;
+    background: url(./Home_Page/Desktop_Images/Assets/Web_Design.png) no-repeat;
     background-size: cover;
   }
 
   .app {
     grid-column: 2/4;
     height: 308px;
-    background: url(./Desktop_Images/Assets/App_Design.jpg) no-repeat;
+    background: url(./Home_Page/Desktop_Images/Assets/App_Design.jpg) no-repeat;
     background-size: cover;
   }
 
   .graphic {
     grid-column: 2/4;
     height: 308px;
-    background: url(./Desktop_Images/Assets/Graphic_Design.jpg) no-repeat;
+    background: url(./Home_Page/Desktop_Images/Assets/Graphic_Design.jpg) no-repeat;
     background-size: cover;
   }
 
