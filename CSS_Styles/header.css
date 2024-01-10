@@ -1,0 +1,57 @@
+* {
+  font-family: 'Jost', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 6.4% 37px;
+}
+
+nav {
+  display: none;
+}
+
+@media (width >=768px) {
+  header {
+    padding: 64px 5.1%;
+  }
+
+  .burger_menu {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+  }
+
+  .burger_menu>img {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  nav {
+    display: block;
+    font-size: 14px;
+    font-family: Jost;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #333136;
+  }
+
+  nav:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (width >= 1440px) {
+  header {
+    padding: 64px 11.5%;
+  }
+}

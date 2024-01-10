@@ -1,0 +1,359 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 6.4%;
+}
+
+.section1 {
+  width: 100%;
+  gap: 80px;
+  padding-top: 80px;
+  background: url(./Mobile_Images/BackGround_Path/First_Cont.png) no-repeat #E7816B;
+  background-size: cover;
+}
+
+.section1>.main_text_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.main_text_cont>h1 {
+  font-size: 32px;
+  font-family: Jost;
+  font-weight: 500;
+  text-align: center;
+  line-height: 36px;
+  color: #FFF;
+}
+
+.main_text_cont>p {
+  font-size: 15px;
+  font-family: Jost;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+  color: #FFF;
+}
+
+.main_text_cont>.learn_more,
+button {
+  font-size: 15px;
+  font-family: Jost;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333136;
+  width: 152px;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px 0 0;
+  background: #FFF;
+}
+
+button:hover {
+  background-color: #FFAD9B;
+}
+
+.desktop_iphone {
+  display: none;
+}
+
+.section2 {
+  gap: 24px;
+}
+
+.design_conts {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  z-index: 1;
+  cursor: pointer;
+  transition: .4s;
+  background: #000;
+}
+
+.design_conts>a {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.design_conts>a>h2 {
+  font-size: 28px;
+  font-family: Jost;
+  font-weight: 500;
+  text-align: center;
+  line-height: 36px;
+  letter-spacing: 1.4px;
+  color: #FFF;
+}
+
+.view_projects {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.view_projects>p {
+  font-size: 15px;
+  font-family: Jost;
+  font-weight: 500;
+  letter-spacing: 5px;
+  color: #FFF;
+}
+
+.web {
+  background: url(./Mobile_Images/Assets/Web_Deisgn.jpg) no-repeat;
+  background-size: cover;
+}
+
+.app {
+  background: url(./Mobile_Images/Assets/App_Design.png) no-repeat;
+  background-size: cover;
+}
+
+.graphic {
+  background: url(./Mobile_Images/Assets/Graphic_Design.jpg) no-repeat;
+  background-size: cover;
+}
+
+.section3 {
+  gap: 80px;
+}
+
+.avatars_conts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.avatars_conts_text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.avatars_conts_text>h3 {
+  font-size: 20px;
+  font-family: Jost;
+  font-weight: 500;
+  text-align: center;
+  line-height: 26px;
+  letter-spacing: 5px;
+  color: #333136;
+}
+
+.avatars_conts_text>p {
+  font-size: 16px;
+  font-family: Jost;
+  font-weight: 400;
+  text-align: center;
+  line-height: 26px;
+  color: #333136;
+}
+
+@media (width >=768px) {
+  main {
+    padding: 0 5.1%;
+  }
+
+  section {
+    padding: 0;
+  }
+
+  .section1 {
+    gap: 69px;
+    padding: 60px 8.4% 0;
+    border-radius: 15px;
+    background-size: 500px;
+    background-position: right 0 top 87px;
+  }
+
+  .section1>.main_text_cont {
+    gap: 8px;
+  }
+
+  .main_text_cont>h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .main_text_cont>p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 77.6%;
+  }
+
+  .design_conts {
+    gap: 24px;
+    height: 200px;
+  }
+
+  .design_conts>h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+  }
+
+  .view_projects {
+    gap: 21px;
+  }
+
+  .web {
+    background: url(./Tablet_Images/Assets/Web_Design.jpg) no-repeat;
+    background-size: cover;
+  }
+  
+  .app {
+    background: url(./Tablet_Images/Assets/App_Design.jpg) no-repeat;
+    background-size: cover;
+  }
+  
+  .graphic {
+    background: url(./Tablet_Images/Assets/Graphic_Design.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .section3 {
+    gap: 32px;
+  }
+
+  .avatars_conts {
+    flex-direction: row;
+  }
+
+  .avatars_conts_text {
+    gap: 16px;
+  }
+
+  .avatars_conts_text>h3, .avatars_conts_text>p {
+    text-align: start;
+  }
+}
+
+@media (width >= 1440px) {
+  main {
+    gap: 160px;
+    padding: 0 11.5%;
+  }
+
+  .section1 {
+    flex-direction: row;
+    align-items: unset;
+    gap: 98px;
+    padding: 145px 8.6% 0;
+    background: url(./Desktop_Images/Background_Path/First_cont.png) no-repeat right 0 #E7816B;
+  }
+
+  .section1>.main_text_cont {
+    gap: 11px;
+    align-items: baseline;
+  }
+
+  .main_text_cont>h1 {
+    font-size: 48px;
+    text-align: start;
+    line-height: 48px;
+  }
+
+  .main_text_cont>p {
+    text-align: start;
+  }
+
+  .learn_more {
+    margin: 29px 0 0;
+  }
+
+  .mobile_iphone {
+    display: none;
+  }
+
+  .desktop_iphone {
+    display: block;
+  }
+
+  .section2 {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .web {
+    grid-row: 1 / 3; 
+    height: 640px;
+    background: url(./Desktop_Images/Assets/Web_Design.png) no-repeat;
+    background-size: cover;
+  }
+
+  .app {
+    grid-column: 2/4;
+    height: 308px;
+    background: url(./Desktop_Images/Assets/App_Design.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .graphic {
+    grid-column: 2/4;
+    height: 308px;
+    background: url(./Desktop_Images/Assets/Graphic_Design.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .orange_back {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 15px;
+    opacity: 0.7;
+    background-color: #E7816B;
+  }
+
+  .design_conts:hover .orange_back {
+    display: block;
+  }
+
+  .view_projects {
+    gap: 24px;
+  }
+
+  .section3 {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .avatars_conts {
+    flex-direction: column;
+    width: 33%;
+  }
+
+  .avatars_conts_text {
+    gap: 32px;
+  }
+
+  .avatars_conts_text>h3, .avatars_conts_text>p {
+    text-align: center;
+  }
+}
